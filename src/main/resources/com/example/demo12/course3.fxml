@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #F0F7F4;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo12.HelloController">
+    <children>
+        <Button fx:id="isp31Button" layoutX="48.0" layoutY="102.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="1848.0" style="-fx-background-color: #80CBC4;" text="ИСП-31" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+        <Button fx:id="isp32Button" layoutX="48.0" layoutY="185.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="1848.0" style="-fx-background-color: #80CBC4;" text="ИСП-32" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+        <Button fx:id="isp33Button" layoutX="48.0" layoutY="270.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="1848.0" style="-fx-background-color: #80CBC4;" text="ИСП-33" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+        <Button fx:id="isp34Button" layoutX="48.0" layoutY="355.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="1848.0" style="-fx-background-color: #80CBC4;" text="ИСП-34" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+        <Button fx:id="mto31Button" layoutX="48.0" layoutY="440.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="1848.0" style="-fx-background-color: #80CBC4;" text="МТО-31" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+        <Button fx:id="mto32Button" layoutX="48.0" layoutY="525.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="1848.0" style="-fx-background-color: #80CBC4;" text="МТО-32" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+        <Button fx:id="osa31Button" layoutX="48.0" layoutY="610.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="1848.0" style="-fx-background-color: #80CBC4;" text="ОСА-31" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+        <Button fx:id="tms31Button" layoutX="48.0" layoutY="695.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="1848.0" style="-fx-background-color: #80CBC4;" text="ТМС-31" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+        <Button fx:id="tod31Button" layoutX="48.0" layoutY="780.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="1848.0" style="-fx-background-color: #80CBC4;" text="ТОД-31" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+        <Button fx:id="ukp31Button" layoutX="48.0" layoutY="865.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="1848.0" style="-fx-background-color: #80CBC4;" text="УКП-31" textAlignment="CENTER" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+        <Label layoutX="16.0" layoutY="45.0" text="№" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="23.0" layoutY="110.0" text="1" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="23.0" layoutY="193.0" text="2" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="23.0" layoutY="278.0" text="3" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="23.0" layoutY="363.0" text="4" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="23.0" layoutY="448.0" text="5" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="23.0" layoutY="533.0" text="6" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="23.0" layoutY="618.0" text="7" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="23.0" layoutY="703.0" text="8" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="23.0" layoutY="788.0" text="9" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="15.0" layoutY="873.0" text="10" textFill="#1E2A2A">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="825.0" layoutY="14.0" prefHeight="39.0" prefWidth="284.0" text="Наименование группы" textFill="#1E2A2A">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+        <Button fx:id="back" layoutX="21.0" layoutY="951.0" mnemonicParsing="false" onMouseClicked="#setSchedule" prefHeight="62.0" prefWidth="140.0" style="-fx-background-color: #80CBC4;" text="Назад" textFill="#1E2A2A">
+         <font>
+            <Font size="26.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

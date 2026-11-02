@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1980.0" style="-fx-background-color: #F0F7F4;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo12.HelloController">
+    <children>
+        <Label layoutX="717.0" layoutY="327.0" prefHeight="30.0" prefWidth="62.0" text="ФИО" textFill="#1E2A2A">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Label>
+        <Label layoutX="717.0" layoutY="394.0" prefHeight="39.0" prefWidth="192.0" text="Квалификация" textFill="#1E2A2A">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Label>
+        <Label layoutX="717.0" layoutY="474.0" prefHeight="39.0" prefWidth="88.0" text="Логин" textFill="#1E2A2A">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Label>
+        <Label layoutX="717.0" layoutY="537.0" prefHeight="39.0" prefWidth="108.0" text="Пароль" textFill="#1E2A2A">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Label>
+        <TextField fx:id="registrationFullName" layoutX="912.0" layoutY="322.0" prefHeight="49.0" prefWidth="346.0" style="-fx-background-color: #E8F0EC;" />
+        <TextField fx:id="registrationQualification" layoutX="912.0" layoutY="384.0" prefHeight="49.0" prefWidth="346.0" promptText="Например: Математика, Физика, Химия" style="-fx-background-color: #E8F0EC;" />
+        <TextField fx:id="registrationLogin" layoutX="911.0" layoutY="464.0" prefHeight="49.0" prefWidth="346.0" style="-fx-background-color: #E8F0EC;" />
+        <TextField fx:id="registrationPassword" layoutX="911.0" layoutY="532.0" prefHeight="49.0" prefWidth="346.0" style="-fx-background-color: #E8F0EC;" />
+        <Button fx:id="back" layoutX="21.0" layoutY="951.0" mnemonicParsing="false" onMouseClicked="#setBack" prefHeight="62.0" prefWidth="140.0" style="-fx-background-color: #80CBC4;" text="Назад" textFill="#1E2A2A">
+         <font>
+            <Font size="26.0" />
+         </font></Button>
+        <Button fx:id="registerButton" layoutX="907.0" layoutY="618.0" mnemonicParsing="false" onMouseClicked="#handleRegistration" prefHeight="57.0" prefWidth="346.0" style="-fx-background-color: #80CBC4;" text="Зарегистрироваться" textFill="#1E2A2A">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
